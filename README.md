@@ -1,6 +1,6 @@
 # Script_bash_crack_wifi
 
-### Script simple
+## Script simple
 
 ```bash
 #!/bin/bash
@@ -53,7 +53,7 @@ echo "=== Script terminé. Bonne chance pour le crack ! ==="
 * Propose d’envoyer les paquets de désauthentification.
 * Puis utilise Aircrack-ng avec le dictionnaire choisi.
 
-### Interface utilisateur en texte (avec dialog)
+## Interface utilisateur en texte (avec dialog)
 
 1. Installation de dialog
 
