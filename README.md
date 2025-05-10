@@ -55,3 +55,4 @@ echo "=== Script terminé. Bonne chance pour le crack ! ==="
 
 ### Interface utilisateur en texte (avec dialog)
 
+1. Installation de dialog
