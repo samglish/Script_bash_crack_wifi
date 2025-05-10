@@ -119,3 +119,7 @@ mkdir -p wifi-attack-ui_1.0/usr/local/bin
 cp wifi_attack_ui.sh wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
 chmod +x wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
 ```
+ 3. Crée le fichier control
+```bash
+nano wifi-attack-ui_1.0/DEBIAN/control
+```
