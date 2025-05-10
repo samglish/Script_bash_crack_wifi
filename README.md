@@ -53,4 +53,5 @@ echo "=== Script terminé. Bonne chance pour le crack ! ==="
 * Propose d’envoyer les paquets de désauthentification.
 * Puis utilise Aircrack-ng avec le dictionnaire choisi.
 
-Interface utilisateur en texte (avec dialog)
+### Interface utilisateur en texte (avec dialog)
+
