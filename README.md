@@ -136,3 +136,7 @@ Maintainer: Beidi Dina Samuel
 Description: Script d’attaque WPA avec interface dialog pour Linux.
 Depends: bash, dialog, aircrack-ng, xterm
 ```
+4. Génère le .deb
+```bash
+dpkg-deb --build wifi-attack-ui_1.0
+```
