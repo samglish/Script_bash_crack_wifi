@@ -133,6 +133,6 @@ Section: utils
 Priority: optional
 Architecture: all
 Maintainer: Beidi Dina Samuel
-Description: Script d’attaque WPA avec interface dialog pour Kali Linux.
+Description: Script d’attaque WPA avec interface dialog pour Linux.
 Depends: bash, dialog, aircrack-ng, xterm
 ```
