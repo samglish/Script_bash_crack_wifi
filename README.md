@@ -114,3 +114,10 @@ dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7
 mkdir -p wifi-attack-ui_1.0/DEBIAN
 mkdir -p wifi-attack-ui_1.0/usr/local/bin
 ```
+2. Place ton script dans `/usr/local/bin`
+Copie ton script et rends-le exécutable :
+
+```bash
+cp wifi_attack_ui.sh wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
+chmod +x wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
+```
