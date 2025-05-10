@@ -123,3 +123,16 @@ chmod +x wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
 ```bash
 nano wifi-attack-ui_1.0/DEBIAN/control
 ```
+
+Et colle ceci dedans :
+
+```vbnet
+Package: wifi-attack-ui
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Beidi Dina Samuel
+Description: Script d’attaque WPA avec interface dialog pour Kali Linux.
+Depends: bash, dialog, aircrack-ng, xterm
+```
