@@ -41,3 +41,12 @@ sudo aircrack-ng -w $wordlist -b $bssid ${output}-01.cap
 echo ""
 echo "=== Script terminé. Bonne chance pour le crack ! ==="
 ```
+
+`Ce qu’il fait :`
+
+* Passe wlan0 en mode moniteur. 
+* Lance airodump-ng pour détecter les réseaux.
+* Demande le BSSID, canal et nom du fichier de capture.
+* Lance la capture ciblée.
+* Propose d’envoyer les paquets de désauthentification.
+* Puis utilise Aircrack-ng avec le dictionnaire choisi.
