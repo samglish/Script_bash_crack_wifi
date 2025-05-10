@@ -140,3 +140,5 @@ Depends: bash, dialog, aircrack-ng, xterm
 ```bash
 dpkg-deb --build wifi-attack-ui_1.0
 ```
+
+On obtient `wifi-attack-ui_1.0.deb`
