@@ -107,3 +107,4 @@ xterm -hold -e "aircrack-ng -w $wordlist -b $bssid $capfile"
 
 dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7 50
 ```
+## Étapes pour créer un .deb : `wifi-attack-ui_1.0_all.deb`
