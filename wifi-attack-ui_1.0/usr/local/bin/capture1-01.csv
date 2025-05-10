@@ -1,0 +1,8 @@
+
+BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
+98:A9:42:44:84:F8, 2025-05-11 00:12:57, 2025-05-11 00:13:17,  6, 135, WPA2, CCMP, PSK, -31,      160,      476,   0.  0.  0.  0,  13, 4G_WIFI_GLISH, 
+
+Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
+48:43:7C:BD:61:DE, 2025-05-11 00:12:57, 2025-05-11 00:13:15, -71,      439, 98:A9:42:44:84:F8,
+AC:2D:A9:13:D0:E4, 2025-05-11 00:13:05, 2025-05-11 00:13:17, -29,       62, 98:A9:42:44:84:F8,
+
