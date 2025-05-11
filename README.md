@@ -111,8 +111,8 @@ dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7
 
 1. Crée l’arborescence du paquet
 ```bash
-mkdir -p wifi-attack-ui_1.0/DEBIAN
-mkdir -p wifi-attack-ui_1.0/usr/local/bin
+mkdir -p DEBIAN
+mkdir -p usr/local/bin
 ```
 2. Place ton script dans `/usr/local/bin`
 ```bash
