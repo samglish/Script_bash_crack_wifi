@@ -38,7 +38,7 @@ read -p "Entrez le chemin vers votre dictionnaire (ex: /usr/share/wordlists/rock
 
 echo ""
 echo "=== Lancement du craquage avec Aircrack-ng ==="
-sudo aircrack-ng -w $wordlist -b $bssid ${output}-01.cap
+sudo aircrack-ng -w $wordlist ${output}-01.cap
 
 echo ""
 echo "=== Script terminé. Bonne chance pour le crack ! ==="
