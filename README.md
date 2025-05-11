@@ -168,3 +168,7 @@ bash samglish.sh
 <hr>
 
 Télécharge le fichier .deb et installe le, pour apprendre plus sur le logiciel, Merci.
+
+<img src="tof1.png" width="100%">
+<img src="tof2.png" width="100%">
+<img src="tof3.png" width="100%">
