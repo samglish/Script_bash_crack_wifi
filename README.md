@@ -121,7 +121,7 @@ chmod +x /usr/local/bin/samglish
 ```
  3. Crée le fichier control
 ```bash
-nano wifi-attack-ui_1.0/DEBIAN/control
+nano DEBIAN/control
 ```
 
 Et colle ceci dedans :
