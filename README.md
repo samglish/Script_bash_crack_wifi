@@ -103,11 +103,11 @@ wordlist=$(dialog --inputbox "Chemin vers votre dictionnaire (ex: /usr/share/wor
 # Étape 8 : craquage
 capfile="${output}-01.cap"
 dialog --msgbox "Début du craquage. Ceci peut prendre du temps." 7 50
-xterm -hold -e "aircrack-ng -w $wordlist $capfile"
+xterm -hold -e "aircrack-ng -w $wordlist -b $bssid $capfile"
 
 dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7 50
 ```
-## Étapes pour créer un .deb : `wifi-attack-ui_1.0_all.deb`
+## Étapes pour créer un .deb : `samglish.deb`
 
 1. Crée l’arborescence du paquet
 ```bash
@@ -116,8 +116,8 @@ mkdir -p wifi-attack-ui_1.0/usr/local/bin
 ```
 2. Place ton script dans `/usr/local/bin`
 ```bash
-cp wifi_attack_ui.sh wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
-chmod +x wifi-attack-ui_1.0/usr/local/bin/wifi-attack-ui
+cp samglish.sh /usr/local/bin/samglish
+chmod +x /usr/local/bin/samglish
 ```
  3. Crée le fichier control
 ```bash
@@ -136,6 +136,7 @@ Maintainer: Beidi Dina Samuel
 Description: Script d’attaque WPA avec interface dialog pour Linux.
 Depends: bash, dialog, aircrack-ng, xterm
 ```
+Ex
 4. Génère le .deb
 ```bash
 dpkg-deb --build wifi-attack-ui_1.0
