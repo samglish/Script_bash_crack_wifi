@@ -1,5 +1,6 @@
 #!/bin/bash
 
+dialog --msgbox "***SAMGLISH CRACK WIFI***" 10 50
 # Vérification de dialog
 if ! command -v dialog &> /dev/null; then
     echo "dialog n'est pas installé. Lance : sudo apt install dialog"
@@ -41,4 +42,3 @@ dialog --msgbox "Début du craquage. Ceci peut prendre du temps." 7 50
 xterm -hold -e "aircrack-ng -w $wordlist $capfile"
 
 dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7 50
-
