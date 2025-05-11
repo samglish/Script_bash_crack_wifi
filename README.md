@@ -127,7 +127,7 @@ nano wifi-attack-ui_1.0/DEBIAN/control
 Et colle ceci dedans :
 
 ```vbnet
-Package: wifi-attack-ui
+Package: samglish-wifi
 Version: 1.0
 Section: utils
 Priority: optional
