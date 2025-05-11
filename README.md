@@ -142,3 +142,14 @@ dpkg-deb --build wifi-attack-ui_1.0
 ```
 
 On obtient `wifi-attack-ui_1.0.deb`
+
+### Pour installer le paquet :
+```bash
+sudo dpkg -i wifi-attack-ui_1.0.deb
+```
+
+Et tu l’exécutes avec :
+
+```bash
+wifi-attack-ui
+```
