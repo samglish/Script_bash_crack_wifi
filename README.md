@@ -162,3 +162,7 @@ ou on lance seulement le script en mode administrateur (sudo)
 ```bash
 bash samglish.sh
 ```
+
+<hr>
+
+Télécharge le fichier .deb et installe le, pour apprendre plus sur le logiciel, Merci.
