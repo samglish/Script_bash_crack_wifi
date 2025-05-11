@@ -153,3 +153,8 @@ Et tu l’exécutes avec :
 ```bash
 wifi-attack-ui
 ```
+
+ou on lance seulement le script en mode administrateur (sudo)
+```bash
+bash wifi-attack-ui.sh
+```
