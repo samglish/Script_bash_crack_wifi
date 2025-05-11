@@ -136,13 +136,16 @@ Maintainer: Beidi Dina Samuel
 Description: Script d’attaque WPA avec interface dialog pour Linux.
 Depends: bash, dialog, aircrack-ng, xterm
 ```
-Ex
+
 4. Génère le .deb
+
+Mettre tout le contenu dans un dossier (samglish)
+
 ```bash
-dpkg-deb --build wifi-attack-ui_1.0
+dpkg-deb --build samglish
 ```
 
-On obtient `wifi-attack-ui_1.0.deb`
+On obtient `samglish.deb`
 
 ### Pour installer le paquet :
 ```bash
