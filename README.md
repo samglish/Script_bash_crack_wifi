@@ -160,5 +160,5 @@ sudo samglish
 
 ou on lance seulement le script en mode administrateur (sudo)
 ```bash
-bash wifi-attack-ui.sh
+bash samglish.sh
 ```
