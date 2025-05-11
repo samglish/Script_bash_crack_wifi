@@ -149,13 +149,13 @@ On obtient `samglish.deb`
 
 ### Pour installer le paquet :
 ```bash
-sudo dpkg -i wifi-attack-ui_1.0.deb
+sudo dpkg -i samglish.deb
 ```
 
 Et tu l’exécutes avec :
 
 ```bash
-wifi-attack-ui
+sudo samglish
 ```
 
 ou on lance seulement le script en mode administrateur (sudo)
