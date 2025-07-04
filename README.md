@@ -104,7 +104,7 @@ wordlist=$(dialog --inputbox "Chemin vers votre dictionnaire (ex: /usr/share/wor
 # Étape 8 : craquage
 capfile="${output}-01.cap"
 dialog --msgbox "Début du craquage. Ceci peut prendre du temps." 7 50
-xterm -hold -e "aircrack-ng -w $wordlist $capfile"
+xterm -hold -e "aircrack-ng --bssid $bssid -w $wordlist $capfile"
 
 dialog --msgbox "Fin du script. Vérifie si le mot de passe a été trouvé !" 7 50
 
